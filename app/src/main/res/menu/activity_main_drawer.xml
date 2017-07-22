@@ -3,34 +3,63 @@
 
     <group android:checkableBehavior="single">
         <item
-            android:id="@+id/nav_camera"
+            android:id="@+id/navigation_message"
             android:icon="@drawable/ic_menu_camera"
-            android:title="Import" />
+            android:title="@string/navigation_message" />
         <item
-            android:id="@+id/nav_gallery"
+            android:id="@+id/navigation_members"
             android:icon="@drawable/ic_menu_gallery"
-            android:title="Gallery" />
+            android:title="@string/navigation_members" />
         <item
-            android:id="@+id/nav_slideshow"
+            android:id="@+id/navigation_mall"
             android:icon="@drawable/ic_menu_slideshow"
-            android:title="Slideshow" />
+            android:title="@string/navigation_mall" />
         <item
-            android:id="@+id/nav_manage"
+            android:id="@+id/navigation_online_music"
             android:icon="@drawable/ic_menu_manage"
-            android:title="Tools" />
+            android:title="@string/navigation_online_music" />
     </group>
-
-    <item android:title="Communicate">
-        <menu>
+    <item android:title="社交">
+    <menu>
+        <group android:checkableBehavior="single">
             <item
-                android:id="@+id/nav_share"
-                android:icon="@drawable/ic_menu_share"
-                android:title="Share" />
+                android:id="@+id/navigation_friends"
+                android:icon="@drawable/ic_menu_camera"
+                android:title="@string/navigation_friends" />
             <item
-                android:id="@+id/nav_send"
-                android:icon="@drawable/ic_menu_send"
-                android:title="Send" />
+                android:id="@+id/navigation_man_near"
+                android:icon="@drawable/ic_menu_gallery"
+                android:title="@string/navigation_man_near" />
+            </group>
         </menu>
     </item>
+        <item android:title="其他功能">
+            <menu>
+            <item
+                android:id="@+id/navigation_skin"
+                android:icon="@drawable/ic_menu_share"
+                android:title="@string/navigation_skin" />
+            <item
+                android:id="@+id/navigation_SoundHound"
+                android:icon="@drawable/ic_menu_send"
+                android:title="@string/navigation_SoundHound" />
+            <item
+                android:id="@+id/navigation_time_playing"
+                android:icon="@drawable/ic_menu_share"
+                android:title="@string/navigation_time_playing" />
+            <item
+                android:id="@+id/navigation_alarm_clock"
+                android:icon="@drawable/ic_menu_send"
+                android:title="@string/navigation_alarm_clock" />
+            <item
+                android:id="@+id/navigation_Driving_mode"
+                android:icon="@drawable/ic_menu_share"
+                android:title="@string/navigation_Driving_mode" />
+            <item
+                android:id="@+id/navigation_cloud_disk"
+                android:icon="@drawable/ic_menu_send"
+                android:title="@string/navigation_cloud_disk" />
+            </menu>
+        </item>
 
 </menu>
